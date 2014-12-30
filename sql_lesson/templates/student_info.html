@@ -1,0 +1,19 @@
+<html>
+<body>
+<h1> <strong> Student: </strong>  {{first_name}} {{last_name}} </h1>
+<h2> <strong> Github Account: </strong> {{github}} </h2>
+<p>This student is a real dreamboat!</p>
+<h2><strong> Grades </strong> <h2>
+    {% if grade %}
+    <ul>
+       {% for value in grade %}
+<!--         <tr> -->
+        
+        <li> <a href="/projectgrades?project={{value}}">{{ value }}</a> : {{ grade[value] }}</li>
+        
+    </tr>
+    {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>

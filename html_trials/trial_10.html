@@ -1,0 +1,87 @@
+<html>
+<head>
+</head>
+<style>
+    h1 {
+        font-family: sans-serif;
+    }
+    form {
+        margin: 2px;
+    }
+    input {
+        box-shadow: 0 0 1px black;
+    }
+    body {
+        margin: 10px;
+    }
+    div#right {
+        background-color: #cccccc;
+        width: 290px;
+        height: 175px;
+        margin-left: 320px;
+        padding: 10px;
+    }
+    div#left {
+        background-color: #cccccc;
+        width: 290px;
+        height: 200px;
+        position: absolute;
+        padding: 10px;
+    }
+
+</style>
+<body>
+    <h1>Columns!</h1>
+    <div id="left">
+        <h2>Here is a list of things.</h2>
+        <ul>
+            <li>Banana.</li>
+            <li>Rabbit holes.</li>
+            <li>John Quincy Adams</li>
+            <li>A sea serpent.</li>
+        </ul>
+    </div>
+    <div id="right">
+        <div>
+            <form>
+                <label>Name</label>
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            <form>
+                <label>Age</label>
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            <form>
+                <label>Favorite Color</label><select name="select">
+                    <option value="value1">Magenta</option>
+                    <option value="value1">Red</option>
+                    <option value="value1">Green</option>
+                    <option value="value1">Blue</option>
+                    <option value="value1">Fuschia</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <form>
+                <div><label>Love Music</label><input type="radio"></div>
+                <div><label>Hate Music</label><input type="radio"></div>
+            </form>
+        </div>
+        <div>
+            <form>
+                <label>Is it raining?</label>
+                <input type="checkbox">
+            </form>
+        </div>
+        <div>
+            <form>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

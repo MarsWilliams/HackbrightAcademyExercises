@@ -1,0 +1,59 @@
+header {
+    background-color: lightgrey;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+nav {
+ background-color: inherit;
+ text-align: right;
+}
+
+ul {
+
+}
+
+li {
+    color: green;
+    display: inline-block;
+    margin: 10px;
+}
+
+div {
+    background-color: white;
+}
+.title {
+    color: orange;
+    text-align: center;
+}
+
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.main {
+
+}
+
+.logo {
+
+}
+
+img {
+
+}
+
+.marketing_text {
+    width: 600px;
+    margin: 0 auto;
+    column-count:2;
+}
+
+footer {
+    text-align: center;
+}
+    
